@@ -1,9 +1,14 @@
 """Sending interfaces configuration generated with Jinja Template to cisco devices to configure interfaces and export configuration in
 external text file"""
-
 from jinja2 import Environment, FileSystemLoader
 from netmiko import ConnectHandler
+import pyfiglet
 
+# Prints Banner with tool name
+banner = pyfiglet.figlet_format("Configure", font="doom")
+print(banner)
+
+# Define list of switches ips
 cisco_switches = ["192.168.43.10", "192.168.43.11", "192.168.43.12", "192.168.43.13"]
 
 for switch in cisco_switches:
