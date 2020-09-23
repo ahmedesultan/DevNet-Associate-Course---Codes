@@ -22,7 +22,7 @@
 #     print("ahmed sultan")
 #
 #
-# my_function()
+my_function()
 
 
 # Calling function with parameters
