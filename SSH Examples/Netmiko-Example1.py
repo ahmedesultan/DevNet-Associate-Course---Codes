@@ -14,5 +14,5 @@ ssh_connect = ConnectHandler(**connection)  # Establish SSH session  with HOST
 if ssh_connect:  # Check if the connection established !
     print("Success !")
 
-output = ssh_connect.send_command("show runn | i hostname")
+output = ssh_connect.send_command("show clock")
 print(output)
