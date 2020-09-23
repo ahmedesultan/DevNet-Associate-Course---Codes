@@ -23,7 +23,7 @@
 #
 #
 my_function()
-
+print("Ahmed Sultan")
 
 # Calling function with parameters
 # def greeting(name):
