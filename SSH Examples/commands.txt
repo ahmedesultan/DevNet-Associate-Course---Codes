@@ -1,0 +1,2 @@
+show running | i hostname
+show ip int br
