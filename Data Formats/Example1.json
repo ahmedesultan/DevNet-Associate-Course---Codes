@@ -1,4 +1,5 @@
-{
+[
+  {
   "hostname": "CORE-SW",
   "vendor": "Cisco",
   "isAlive": true,
@@ -19,3 +20,4 @@
     }
   ]
 }
+]
