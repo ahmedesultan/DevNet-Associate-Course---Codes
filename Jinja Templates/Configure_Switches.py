@@ -1,5 +1,6 @@
 """Sending interfaces configuration generated with Jinja Template to cisco devices to configure interfaces and export configuration in
 external text file"""
+
 from jinja2 import Environment, FileSystemLoader
 from netmiko import ConnectHandler
 import pyfiglet
@@ -47,9 +48,8 @@ for switch in cisco_switches:
 
         # Write result configuration to external file and take those configuration and send it back to the device
         with open('Host {}-config.txt'.format(connection['host']), "a") as f:
-            commands_list = f.write(output)
-        # print("Done Writing configuration to external file!")
-        # print("Start sending configuration to", connection["host"])
+            f.write(output)
+
         ssh_connect.send_config_set(output, cmd_verify=False)
         ssh_connect.save_config()
     print("Finish sending configuration to", connection["host"])

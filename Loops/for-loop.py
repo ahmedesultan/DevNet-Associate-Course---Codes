@@ -1,7 +1,11 @@
-# vendors = ["cisco", "juniper", "arista", "huwawi"]
-#
-# for i in vendors:
-#     print(i)
+def vendor_list(new_vendor):
+    vendors = ["cisco", "juniper", "arista", "huwawi"]
+    vendors.append(new_vendor)
+    return vendors
 
-numbers = [10]
-print(numbers)
+
+x = vendor_list("microsoft")
+print(x)
+
+y= vendor_list("amazon")
+print(y)

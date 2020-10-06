@@ -1,29 +1,32 @@
-# def print_vendor(net_vendor):
-#     print(net_vendor)
-#
-#
-# vendors = ['arista', 'juniper', 'cisco']
-# for vendor in vendors:
-#     print_vendor(vendor)
+def print_vendor(net_vendor):
+    print(net_vendor)
+
+
+vendors = ['arista', 'juniper', 'cisco']
+
+for vendor in vendors:
+    print_vendor(vendor)
+
+
 # def get_commands(vlan, name):
 #     commands = []
 #     commands.append('vlan ' + str(vlan))
 #     commands.append('name ' + name)
 #     return commands
-#
+# #
 #
 # def push_commands(device, commands):
 #     print("Connecting to device: " + device)
 #     for cmd in commands:
 #         print("Sending command: " + cmd)
 
-# # Calling function
+# Calling function
+
 # def my_function():
 #     print("ahmed sultan")
 #
 #
-my_function()
-print("Ahmed Sultan")
+# my_function()
 
 # Calling function with parameters
 # def greeting(name):

@@ -1,0 +1,11 @@
+<!--<router>-->
+<!--    <name>CSR1000V</name>-->
+<!--    <vendor>Cisco</vendor>-->
+<!--    <type>virtual</type>-->
+<!--</router>-->
+
+<device>
+    <vendor>Cisco</vendor>
+    <model>Nexus 7700</model>
+    <osver>NXOS 6.1</osver>
+</device>
