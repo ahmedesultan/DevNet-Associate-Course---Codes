@@ -1,0 +1,11 @@
+## Nornir Groups File 
+---
+Switches:
+
+  data: 
+    ntp: 
+      servers: 
+        - 1.1.1.1
+
+
+
