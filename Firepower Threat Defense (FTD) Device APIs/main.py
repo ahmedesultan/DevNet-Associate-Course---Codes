@@ -37,7 +37,7 @@ class FTDClient:
         "Accept": "application/json"
     }
 
-    def __init__(self, address='192.168.1.1', port=443, username="admin", password="Admin123"):
+    def __init__(self, address='10.10.20.65', port=443, username="admin", password="Cisco1234"):
         '''
         Constructor used to initialize the bravado_client
 
