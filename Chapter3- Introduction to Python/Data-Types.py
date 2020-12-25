@@ -69,5 +69,5 @@
 
 
 for i in range(100000):
-    print("Ahmed:", i)
+    print("Hello:", i)
     i += 1
