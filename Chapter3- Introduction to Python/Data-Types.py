@@ -72,3 +72,54 @@
 #     print("Hello:", i)
 #     i += 1
 
+# name = input("Enter your name: ")
+#
+# if name == "ahmed":
+#     print("Welcome", name)
+#
+# # elif name == "mohammed":
+# #     print("Welocme", name)
+#
+# else:
+#     print("Welcome", name)
+#
+# number = input("Please, Enter your phone number starting with country code:")
+#
+# if number.startswith("00966"):
+#     print("You Entered Saudi Number")
+# else:
+#     print("You Entered Unkown number!")
+
+# ip = input("Enter your IP Address: ")
+#
+# if ip.startswith("10"):
+#     print("You Entered Class 'A' IP")
+# elif ip.startswith("172"):
+#     print("You Entered Class 'B' IP")
+# elif ip.startswith("192"):
+#     print("You Entered Class 'C' IP")
+# else:
+#     print("Unkown IP Address!")
+
+# ips = ["192.168.1.1", "10.10.10.10", "172.16.1.1","1.1.1.1"]
+#
+# for i in ips:
+#     print(i)
+
+while True:
+
+    ip = input("Enter your IP Address or type 'any keyword' to end script: ")
+
+    if ip.startswith("10"):
+        print("You Entered Class 'A' IP")
+
+    elif ip.startswith("172"):
+        print("You Entered Class 'B' IP")
+
+    elif ip.startswith("192"):
+        print("You Entered Class 'C' IP")
+
+    else:
+        break
+
+    print("")
