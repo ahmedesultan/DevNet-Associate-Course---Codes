@@ -37,12 +37,12 @@ while True:
                     "show version | i uptime",
                     "show inventory"]
 
-    for cmd in commands:
-        print("\n")
-        print("*===========START OF OUTPUT=============*")
-        connection.write(cmd.encode('ascii') + b"\n")
-        output = connection.read_until(b"#")
-        print(output.decode('ascii'))
-        print("*===========END OF OUTPUT=============*")
+        for cmd in commands:
+            print("\n")
+            print("*===========START OF OUTPUT=============*")
+            connection.write(cmd.encode('ascii') + b"\n")
+            output = connection.read_until(b"#")
+            print(output.decode('ascii'))
+            print("*===========END OF OUTPUT=============*")
+            print(b"\n".decode('ascii'))
         print(b"\n".decode('ascii'))
-    print(b"\n".decode('ascii'))

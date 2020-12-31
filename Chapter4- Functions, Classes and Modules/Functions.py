@@ -36,9 +36,9 @@ def switch():
 while True:
     device_type = input("Enter your device type or any keyword to exit: ")
 
-    if device_type == "Router":
+    if device_type == "Router" or device_type == "router":
         router()
-    elif device_type == "Switch":
+    elif device_type == "Switch" or device_type == "switch":
         switch()
     else:
         break
