@@ -1,7 +1,6 @@
 
 # Telnet to Multiple IPS and Return Output of specific commands
 
-
 import telnetlib
 
 ips = ["192.168.43.10", "192.168.43.11", "192.168.43.12", "192.168.43.13"]
