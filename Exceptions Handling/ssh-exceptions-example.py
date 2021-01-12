@@ -23,7 +23,7 @@ for ip in cisco_switches:
 
     # Raise this Exception if SSH Username or Password is wrong
     except AuthenticationException:
-        print("Authentication Failure:", ssh_info["host"])
+        print("Authentication Failure to device:", ssh_info["host"])
 
     # Raise this Exception if Device is down or the link is down
     except NetMikoTimeoutException:
@@ -31,7 +31,7 @@ for ip in cisco_switches:
 
     # Raise this Exception if SSH is not enabled
     except SSHException:
-        print("SSH Issue, Are you sure SSH is enabled?", ssh_info["host"])
+        print("SSH Issue, Are you sure SSH is enabled? on device:", ssh_info["host"])
 
     # Raise this Exception for anything else
     except Exception as unkown_error:
