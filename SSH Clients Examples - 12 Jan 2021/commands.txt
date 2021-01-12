@@ -1,3 +1,4 @@
 show ip int br
 show version
 show clock
+show runn
