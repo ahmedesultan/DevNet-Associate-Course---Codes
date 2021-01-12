@@ -23,15 +23,15 @@ try:
 
 
 # Raise this Exception if SSH Username or Password is wrong
-except (AuthenticationException):
+except AuthenticationException:
     print("Authentication Failure:", ssh_info["host"])
 
 # Raise this Exception if Device is down or the link is down
-except (NetMikoTimeoutException):
+except NetMikoTimeoutException:
     print("Timeout to device:", ssh_info["host"], ", Check the host IP and Make sure it's Up and Running")
 
 # Raise this Exception if SSH is not enabled
-except(SSHException):
+except SSHException:
     print("SSH Issue, Are you sure SSH is enabled?", ssh_info["host"])
 
 # Raise this Exception for anything else

@@ -7,7 +7,6 @@ try:
 except:
     print('An exception occurred')
 
-
 # Example 2
 # try:
 #     print('x =', x)
