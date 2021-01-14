@@ -10,7 +10,7 @@ banner = pyfiglet.figlet_format("Configure", font="doom")
 print(banner)
 
 # Define list of switches ips
-cisco_switches = ["192.168.43.10", "192.168.43.11", "192.168.43.12", "192.168.43.13"]
+cisco_switches = ["192.168.43.10", "192.168.43.11"]
 
 for switch in cisco_switches:
     # SSH connection parameters needed to establish ssh remote connection
@@ -30,6 +30,8 @@ for switch in cisco_switches:
 
     # Tell python to load all external files from the current directory
     env = Environment(loader=FileSystemLoader('.'))
+
+    # Tell python to load Jinja Template
     template = env.get_template("configure-interfaces-template.j2")
 
     interfaces = ["G1/0", "G1/1", "G1/2", "G1/3"]
