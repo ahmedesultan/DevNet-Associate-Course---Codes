@@ -8,6 +8,7 @@ with open("Example1.json") as f:
 # placing our JSON data into it.
 json_dict = json.loads(data)
 
+
 # Print the whole json dictionary
 print(json_dict)
 

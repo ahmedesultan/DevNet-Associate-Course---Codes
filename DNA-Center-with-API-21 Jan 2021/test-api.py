@@ -1,0 +1,12 @@
+import requests
+
+url = "https://sandboxdnac.cisco.com/api/v1/network-device?macAddress=f8:7b:20:67:62:80&serialNumber=FCW2136L0AK"
+
+payload={}
+headers = {
+  'x-auth-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1ZTlkYmI3NzdjZDQ3ZTAwNGM2N2RkMGUiLCJhdXRoU291cmNlIjoiaW50ZXJuYWwiLCJ0ZW5hbnROYW1lIjoiVE5UMCIsInJvbGVzIjpbIjVkYzQ0NGQ1MTQ4NWM1MDA0YzBmYjIxMiJdLCJ0ZW5hbnRJZCI6IjVkYzQ0NGQzMTQ4NWM1MDA0YzBmYjIwYiIsImV4cCI6MTYxMTI1MDk1NiwiaWF0IjoxNjExMjQ3MzU2LCJqdGkiOiI1YjE5MDNlZi0xZThlLTQyYjctODVkYy0yZGVmMWExMDgxNzIiLCJ1c2VybmFtZSI6ImRldm5ldHVzZXIifQ.wmECzC-ui7qS5U2aQKkiFb-OoRhswFYs6hsEvX02rfogMYA8OUWlUxoAsmfIIfXqxHrgsvc405ssaTrNjCgPWif7--PjaHnmQiE9RQvEIHWa4yhk7oGEaXgliVlaLea7iLogSs0qrTi44VPWG8PvuksPc6r075aWG8rq9WICapnxh7Bu7soz5Im1l808Q6E1BVfYC__8xoS1qg06Cla_gAo5WQJ9SwIdbA7qd7Rv5TSzGk7ok2fK-Yrb-r90wH5AdMTHDjFhelJgueJ6HL5WoWQTxRKCHHn1xelach4QagH7XOixavuKWVqxujiHrhc2rKNX-sL7ibktrcLF6IB4Yw'
+}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
