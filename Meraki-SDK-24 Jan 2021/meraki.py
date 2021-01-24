@@ -1,7 +1,7 @@
 from meraki_sdk.meraki_sdk_client import MerakiSdkClient
 
 # Cisco DevNet Sandbox Meraki API Key
-X_CISCO_MERAKI_API_KEY = "59fb53d96b56dd9cf05e9848450f29d3da18f8d5"
+X_CISCO_MERAKI_API_KEY = "c67b2d65aeecbf772aaa657facd4805d3bb7e051"
 
 # Establish a new client connection to the meraki REST API
 MERAKI = MerakiSdkClient(X_CISCO_MERAKI_API_KEY)
@@ -25,8 +25,8 @@ print("List of Networks in '549236' organization")
 print("===================================================")
 
 for NET in NETS:
-    print("Network ID: {}, Name: {}, Tags: {}".
-          format(NET['id'], NET['name'], str(NET['tags'])))
+    print("Network ID: {}, Name: {}, Tags: {}, TimeZone {}".
+          format(NET['id'], NET['name'], str(NET['tags']), NET["timeZone"]))
 
 # Get a list of all devices that are part of the "DevNet Sandbox ALWAYS ON" Network
 DEVICES = MERAKI.devices.get_network_devices("L_646829496481105433")
