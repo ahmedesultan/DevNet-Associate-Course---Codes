@@ -5,8 +5,9 @@ from nornir_utils.plugins.functions import print_result
 nr = InitNornir("config.yml")
 
 # send only one command to hosts
-# result = nr.run(netmiko_send_command, command_string="sh ip int brief")
+result = nr.run(netmiko_send_command, command_string="show version")
 
-# send command from file 'commands' to hosts
-result = nr.run(netmiko_send_config, config_file="commands")
+# # send command from file 'commands' to hosts
+# result = nr.run(netmiko_send_config, config_file="commands")
+
 print_result(result)

@@ -1,4 +1,5 @@
-do show running | i hostname
-do show ip inter br
-do show arp
-do show ip route
+exit
+show running | i hostname
+show ip inter br
+show arp
+show ip route
