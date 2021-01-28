@@ -1,23 +1,22 @@
 [
   {
-  "hostname": "CORE-SW",
-  "vendor": "Cisco",
-  "isAlive": true,
-  "uptime": 123456,
-  "users": {
-    "admin": 15,
-    "support": 10
-  },
-  "vlans":
-  [
-    {
-      "vlan_name": "VLAN30",
-      "vlan_id": 30
+    "hostname": "CORE-SW",
+    "vendor": "Cisco",
+    "isAlive": true,
+    "uptime": 123456,
+    "users": {
+      "admin": 15,
+      "support": 10
     },
-    {
-      "vlan_name": "VLAN20",
-      "vlan_id": 20
-    }
-  ]
-}
+    "vlans": [
+      {
+        "vlan_name": "VLAN30",
+        "vlan_id": 30
+      },
+      {
+        "vlan_name": "VLAN20",
+        "vlan_id": 20
+      }
+    ]
+  }
 ]
