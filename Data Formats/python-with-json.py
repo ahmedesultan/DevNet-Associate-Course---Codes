@@ -1,10 +1,12 @@
 # Example 1: Python JSON to dict
-#
+
 # import json
 #
 # person = '{"name": "Bob", "languages": ["English", "Fench"]}'
+#
 # person_dict = json.loads(person)
-# print(person_dict['languages'])
+#
+# print(person_dict)
 
 # Example 2: Python read JSON file
 # import json

@@ -1,13 +1,13 @@
-"""Sending interfaces configuration generated with Jinja Template to cisco devices to reset interfaces"""
+"""Sending interfaces configuration generated with Jinjo a Template to ciscdevices to configure interfaces and export configuration in
+external text file"""
 
 from jinja2 import Environment, FileSystemLoader
 from netmiko import ConnectHandler
 import pyfiglet
 
 # Prints Banner with tool name
-banner = pyfiglet.figlet_format("Reset", font="doom")
+banner = pyfiglet.figlet_format("Configure", font="doom")
 print(banner)
-
 
 # Define list of switches ips
 cisco_switches = ["192.168.43.10", "192.168.43.11"]
@@ -21,6 +21,7 @@ for switch in cisco_switches:
         "password": "cisco",
         "secret": "cisco"
     }
+
     # Establish SSH session  with HOST
     ssh_connect = ConnectHandler(**connection)
 
@@ -28,9 +29,11 @@ for switch in cisco_switches:
     if ssh_connect:
         print("\nSSH Connection Established Successfully to host:", connection["host"])
 
-    # Tell python to load all external files from the current directory
+    # Tell python to load Jinja external files from the current directory
     env = Environment(loader=FileSystemLoader('.'))
-    template = env.get_template("reset-interfaces-template.j2")
+
+    # Tell python to load Jinja Template
+    template = env.get_template("configure-interface.j2")
 
     interfaces = ["G1/0", "G1/1", "G1/2", "G1/3"]
 
@@ -38,11 +41,21 @@ for switch in cisco_switches:
     for interface in interfaces:
         interface_dict = {
             "name": interface.strip(),
+            "description": "Server Port",
+            "vlan": "10",
+            'voice_vlan': "20",
         }
 
         # Combine between dictionary attributes with Jinja templates variables
         output = template.render(interface=interface_dict)
-        ssh_connect.send_config_set(output, cmd_verify=False)
-        ssh_connect.save_config()
-    print("Finish sending configuration to", connection["host"])
-    print("-----------------------------------------------------\n")
+        print(output)
+
+        # Write result configuration to external file and take those configuration and send it back to the device
+        with open('Host {}-config.txt'.format(connection['host']), "a") as f:
+            f.write(output)
+
+            ssh_connect.send_config_set(output, cmd_verify=False)
+            ssh_connect.save_config()
+
+        print("Finish sending configuration to", connection["host"])
+        print("-----------------------------------------------------\n")
