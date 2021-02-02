@@ -1,0 +1,1520 @@
+
+vlan 64
+  name LOD-Frm-VL-LOD-L2PUB
+  exit
+
+vlan 65
+  name VL-LOD-FOR-MAN-PUB
+  exit
+
+vlan 66
+  name VL-LOD-FOR-SUP-PUB
+  exit
+
+vlan 67
+  name VL-LOD-FOR-TVCC-PUB
+  exit
+
+vlan 68
+  name VL-LOD-FOR-SP-PUB
+  exit
+
+vlan 69
+  name VL-LOD-FIN-L2-PUB
+  exit
+
+vlan 70
+  name VL-LOD-FIN-MAN-PUB
+  exit
+
+vlan 71
+  name VL-LOD-FIN-SUP-PUB
+  exit
+
+vlan 72
+  name VL-LOD-FIN-TVCC-PUB
+  exit
+
+vlan 73
+  name VL-LOD-FIN-SP-PUB
+  exit
+
+vlan 74
+  name VL-LOD-OCTG-L2-PUB
+  exit
+
+vlan 75
+  name VL-LOD-OCTG-MAN-PUB
+  exit
+
+vlan 76
+  name VL-LOD-OCTG-SUP-PUB
+  exit
+
+vlan 77
+  name VL-LOD-OCTG-TVCC-PUB
+  exit
+
+vlan 78
+  name VL-LOD-OCTG-SP-PUB
+  exit
+
+vlan 79
+  name VL-LOD-LABO-L2-PUB
+  exit
+
+vlan 80
+  name VL-LOD-LABO-MAN-PUB
+  exit
+
+vlan 81
+  name VL-LOD-LABO-SUP-PUB
+  exit
+
+vlan 82
+  name VL-LOD-LABO-TVCC-PUB
+  exit
+
+vlan 83
+  name VL-LOD-LABO-SP-PUB
+  exit
+
+vlan 84
+  name VL-LOD-WIFI-PUB
+  exit
+
+vlan 85
+  name VL-LOD-MANAG-PUB
+  exit
+
+vlan 86
+  name VL-LOD-AUTO-PUB
+  exit
+
+vlan 87
+  name VL-LOD-VM-PUB
+  exit
+
+vlan 88
+  name VL-LOD-ALL-SP-PUB
+  exit
+
+vlan 89
+  name VL-MOD-FOR-L2-PUB
+  exit
+
+vlan 90
+  name VL-MOD-FOR-MAN-PUB
+  exit
+
+vlan 91
+  name VL-MOD-FOR-SUP-PUB
+  exit
+
+vlan 92
+  name VL-MOD-FOR-TVCC-PUB
+  exit
+
+vlan 93
+  name VL-MOD-FOR-SP-PUB
+  exit
+
+vlan 94
+  name VL-MOD-FIN-L2-PUB
+  exit
+
+vlan 95
+  name VL-MOD-FIN-MAN-PUB
+  exit
+
+vlan 96
+  name VL-MOD-FIN-SUP-PUB
+  exit
+
+vlan 97
+  name VL-MOD-FIN-TVCC-PUB
+  exit
+
+vlan 98
+  name VL-MOD-FIN-SP-PUB
+  exit
+
+vlan 99
+  name VL-MOD-OCTG-L2-PUB
+  exit
+
+vlan 100
+  name VL-MOD-OCTG-MAN-PUB
+  exit
+
+vlan 101
+  name VL-MOD-OCTG-SUP-PUB
+  exit
+
+vlan 102
+  name VL-MOD-OCTG-TVCC-PUB
+  exit
+
+vlan 103
+  name VL-MOD-OCTG-SP-PUB
+  exit
+
+vlan 104
+  name VL-MOD-LABO-L2-PUB
+  exit
+
+vlan 105
+  name VL-MOD-LABO-MAN-PUB
+  exit
+
+vlan 106
+  name VL-MOD-LABO-SUP-PUB
+  exit
+
+vlan 107
+  name VL-MOD-LABO-TVCC-PUB
+  exit
+
+vlan 108
+  name VL-MOD-LABO-SP-PUB
+  exit
+
+vlan 109
+  name VL-MOD-WIFI-PUB
+  exit
+
+vlan 110
+  name VL-MOD-MANAG-PUB
+  exit
+
+vlan 111
+  name VL-MOD-AUTO-PUB
+  exit
+
+vlan 112
+  name VL-MOD-VM-PUB
+  exit
+
+vlan 113
+  name VL-MOD-ALL-SP-PUB
+  exit
+
+vlan 114
+  name VL-SOD-FOR-L2-PUB
+  exit
+
+vlan 115
+  name VL-SOD-FOR-MAN-PUB
+  exit
+
+vlan 116
+  name VL-SOD-FOR-SUP-PUB
+  exit
+
+vlan 117
+  name VL-SOD-FOR-TVCC-PUB
+  exit
+
+vlan 118
+  name VL-SOD-FOR-SP-PUB
+  exit
+
+vlan 119
+  name VL-SOD-FIN-L2-PUB
+  exit
+
+vlan 120
+  name VL-SOD-FIN-MAN-PUB
+  exit
+
+vlan 121
+  name VL-SOD-FIN-SUP-PUB
+  exit
+
+vlan 122
+  name VL-SOD-FIN-TVCC-PUB
+  exit
+
+vlan 123
+  name VL-SOD-FIN-SP-PUB
+  exit
+
+vlan 124
+  name VL-SOD-OCTG-L2-PUB
+  exit
+
+vlan 125
+  name VL-SOD-OCTG-MAN-PUB
+  exit
+
+vlan 126
+  name VL-SOD-OCTG-SUP-PUB
+  exit
+
+vlan 127
+  name VL-SOD-OCTG-TVCC-PUB
+  exit
+
+vlan 128
+  name VL-SOD-OCTG-SP-PUB
+  exit
+
+vlan 129
+  name VL-SOD-LABO-L2-PUB
+  exit
+
+vlan 130
+  name VL-SOD-LABO-MAN-PUB
+  exit
+
+vlan 131
+  name VL-SOD-LABO-SUP-PUB
+  exit
+
+vlan 132
+  name VL-SOD-LABO-TVCC-PUB
+  exit
+
+vlan 133
+  name VL-SOD-LABO-SP-PUB
+  exit
+
+vlan 134
+  name VL-SOD-WIFI-PUB
+  exit
+
+vlan 135
+  name VL-SOD-MANAG-PUB
+  exit
+
+vlan 136
+  name VL-SOD-AUTO-PUB
+  exit
+
+vlan 137
+  name VL-SOD-VM-PUB
+  exit
+
+vlan 138
+  name VL-SOD-ALL-SP-PUB
+  exit
+
+vlan 139
+  name VL-TSSP-DMZ-PUB
+  exit
+
+vlan 140
+  name VL-TSSP-NAT-PUB
+  exit
+
+vlan 141
+  name VL-TSSP-VPN-PUB
+  exit
+
+vlan 142
+  name VL-TSSP-PROXY-PUB
+  exit
+
+vlan 143
+  name VL-TSSP-SP-PUB
+  exit
+
+vlan 1100
+  name VL-LOD-FOR-L1-LOC
+  exit
+
+vlan 1101
+  name VL-LOD-FOR-MAN-LOC
+  exit
+
+vlan 1102
+  name VL-LOD-FOR-DISP-LOC
+  exit
+
+vlan 1103
+  name VL-LOD-FOR-AZ-LOC
+  exit
+
+vlan 1104
+  name VL-LOD-FOR-IBA-LOC
+  exit
+
+vlan 1105
+  name VL-LOD-FOR-TVCC-LOC
+  exit
+
+vlan 1106
+  name VL-LOD-FOR-SPDEV-LOC
+  exit
+
+vlan 1107
+  name VL-LOD-FOR-SPAR1-LOC
+  exit
+
+vlan 1108
+  name VL-LOD-FOR-SPAR2-LOC
+  exit
+
+vlan 1109
+  name VL-LOD-FOR-SPAR3-LOC
+  exit
+
+vlan 1110
+  name VL-LOD-FOR-EXT0-LOC
+  exit
+
+vlan 1111
+  name VL-LOD-FOR-EXT1-LOC
+  exit
+
+vlan 1112
+  name VL-LOD-FOR-EXT2-LOC
+  exit
+
+vlan 1113
+  name VL-LOD-FOR-EXT3-LOC
+  exit
+
+vlan 1114
+  name VL-LOD-FOR-EXT4-LOC
+  exit
+
+vlan 1115
+  name VL-LOD-FOR-EXT5-LOC
+  exit
+
+vlan 1116
+  name VL-LOD-FOR-EXT6-LOC
+  exit
+
+vlan 1117
+  name VL-LOD-FOR-EXT7-LOC
+  exit
+
+vlan 1118
+  name VL-LOD-FOR-EXT8-LOC
+  exit
+
+vlan 1119
+  name VL-LOD-FOR-EXT9-LOC
+  exit
+
+vlan 1120
+  name VL-LOD-FIN-L1-LOC
+  exit
+
+vlan 1121
+  name VL-LOD-FIN-MAN-LOC
+  exit
+
+vlan 1122
+  name VL-LOD-FIN-DISP-LOC
+  exit
+
+vlan 1123
+  name VL-LOD-FIN-AZ-LOC
+  exit
+
+vlan 1124
+  name VL-LOD-FIN-IBA-LOC
+  exit
+
+vlan 1125
+  name VL-LOD-FIN-TVCC-LOC
+  exit
+
+vlan 1126
+  name VL-LOD-FIN-SPDEV-LOC
+  exit
+
+vlan 1127
+  name VL-LOD-FIN-SPAR1-LOC
+  exit
+
+vlan 1128
+  name VL-LOD-FIN-SPAR2-LOC
+  exit
+
+vlan 1129
+  name VL-LOD-FIN-SPAR3-LOC
+  exit
+
+vlan 1130
+  name VL-LOD-FIN-EXT0-LOC
+  exit
+
+vlan 1131
+  name VL-LOD-FIN-EXT1-LOC
+  exit
+
+vlan 1132
+  name VL-LOD-FIN-EXT2-LOC
+  exit
+
+vlan 1133
+  name VL-LOD-FIN-EXT3-LOC
+  exit
+
+vlan 1134
+  name VL-LOD-FIN-EXT4-LOC
+  exit
+
+vlan 1135
+  name VL-LOD-FIN-EXT5-LOC
+  exit
+
+vlan 1136
+  name VL-LOD-FIN-EXT6-LOC
+  exit
+
+vlan 1137
+  name VL-LOD-FIN-EXT7-LOC
+  exit
+
+vlan 1138
+  name VL-LOD-FIN-EXT8-LOC
+  exit
+
+vlan 1139
+  name VL-LOD-FIN-EXT9-LOC
+  exit
+
+vlan 1140
+  name VL-LOD-OCTG-L1-LOC
+  exit
+
+vlan 1141
+  name VL-LOD-OCTG-MAN-LOC
+  exit
+
+vlan 1142
+  name VL-LOD-OCTG-DISP-LOC
+  exit
+
+vlan 1143
+  name VL-LOD-OCTG-AZ-LOC
+  exit
+
+vlan 1144
+  name VL-LOD-OCTG-IBA-LOC
+  exit
+
+vlan 1145
+  name VL-LOD-OCTG-TVCC-LOC
+  exit
+
+vlan 1146
+  name VL-LOD-OCTG-SPDV-LOC
+  exit
+
+vlan 1147
+  name VL-LOD-OCTG-SPR1-LOC
+  exit
+
+vlan 1148
+  name VL-LOD-OCTG-SPR2-LOC
+  exit
+
+vlan 1149
+  name VL-LOD-OCTG-SPR3-LOC
+  exit
+
+vlan 1150
+  name VL-LOD-OCTG-EXT0-LOC
+  exit
+
+vlan 1151
+  name VL-LOD-OCTG-EXT1-LOC
+  exit
+
+vlan 1152
+  name VL-LOD-OCTG-EXT2-LOC
+  exit
+
+vlan 1153
+  name VL-LOD-OCTG-EXT3-LOC
+  exit
+
+vlan 1154
+  name VL-LOD-OCTG-EXT4-LOC
+  exit
+
+vlan 1155
+  name VL-LOD-OCTG-EXT5-LOC
+  exit
+
+vlan 1156
+  name VL-LOD-OCTG-EXT6-LOC
+  exit
+
+vlan 1157
+  name VL-LOD-OCTG-EXT7-LOC
+  exit
+
+vlan 1158
+  name VL-LOD-OCTG-EXT8-LOC
+  exit
+
+vlan 1159
+  name VL-LOD-OCTG-EXT9-LOC
+  exit
+
+vlan 1160
+  name VL-LOD-LABO-L1-LOC
+  exit
+
+vlan 1161
+  name VL-LOD-LABO-MAN-LOC
+  exit
+
+vlan 1162
+  name VL-LOD-LABO-DISP-LOC
+  exit
+
+vlan 1163
+  name VL-LOD-LABO-AZ-LOC
+  exit
+
+vlan 1164
+  name VL-LOD-LABO-IBA-LOC
+  exit
+
+vlan 1165
+  name VL-LOD-LABO-TVCC-LOC
+  exit
+
+vlan 1166
+  name VL-LOD-LABO-SPDV-LOC
+  exit
+
+vlan 1167
+  name VL-LOD-LABO-SPR1-LOC
+  exit
+
+vlan 1168
+  name VL-LOD-LABO-SPR2-LOC
+  exit
+
+vlan 1169
+  name VL-LOD-LABO-SPR3-LOC
+  exit
+
+vlan 1170
+  name VL-LOD-LABO-EXT0-LOC
+  exit
+
+vlan 1171
+  name VL-LOD-LABO-EXT1-LOC
+  exit
+
+vlan 1172
+  name VL-LOD-LABO-EXT2-LOC
+  exit
+
+vlan 1173
+  name VL-LOD-LABO-EXT3-LOC
+  exit
+
+vlan 1174
+  name VL-LOD-LABO-EXT4-LOC
+  exit
+
+vlan 1175
+  name VL-LOD-LABO-EXT5-LOC
+  exit
+
+vlan 1176
+  name VL-LOD-LABO-EXT6-LOC
+  exit
+
+vlan 1177
+  name VL-LOD-LABO-EXT7-LOC
+  exit
+
+vlan 1178
+  name VL-LOD-LABO-EXT8-LOC
+  exit
+
+vlan 1179
+  name VL-LOD-LABO-EXT9-LOC
+  exit
+
+vlan 1180
+  name VL-LOD-SP1-L1-LOC
+  exit
+
+vlan 1181
+  name VL-LOD-ALL-MAN-LOC
+  exit
+
+vlan 1182
+  name VL-LOD-ALL-DISP-LOC
+  exit
+
+vlan 1183
+  name VL-LOD-ALL-AZ-LOC
+  exit
+
+vlan 1184
+  name VL-LOD-ALL-IBA-LOC
+  exit
+
+vlan 1185
+  name VL-LOD-ALL-TVCC-LOC
+  exit
+
+vlan 1186
+  name VL-LOD-ALL-SPDEV-LOC
+  exit
+
+vlan 1187
+  name VL-LOD-ALL-SPAR1-LOC
+  exit
+
+vlan 1188
+  name VL-LOD-ALL-SPAR2-LOC
+  exit
+
+vlan 1189
+  name VL-LOD-ALL-SPAR3-LOC
+  exit
+
+vlan 1190
+  name VL-LOD-ALL-EXT0-LOC
+  exit
+
+vlan 1191
+  name VL-LOD-ALL-EXT1-LOC
+  exit
+
+vlan 1192
+  name VL-LOD-ALL-EXT2-LOC
+  exit
+
+vlan 1193
+  name VL-LOD-ALL-EXT3-LOC
+  exit
+
+vlan 1194
+  name VL-LOD-ALL-EXT4-LOC
+  exit
+
+vlan 1195
+  name VL-LOD-ALL-EXT5-LOC
+  exit
+
+vlan 1196
+  name VL-LOD-ALL-EXT6-LOC
+  exit
+
+vlan 1197
+  name VL-LOD-ALL-EXT7-LOC
+  exit
+
+vlan 1198
+  name VL-LOD-ALL-EXT8-LOC
+  exit
+
+vlan 1199
+  name VL-LOD-ALL-EXT9-LOC
+  exit
+
+vlan 1500
+  name VL-MOD-FOR-L1-LOC
+  exit
+
+vlan 1501
+  name VL-MOD-FOR-MAN-LOC
+  exit
+
+vlan 1502
+  name VL-MOD-FOR-DISP-LOC
+  exit
+
+vlan 1503
+  name VL-MOD-FOR-AZ-LOC
+  exit
+
+vlan 1504
+  name VL-MOD-FOR-IBA-LOC
+  exit
+
+vlan 1505
+  name VL-MOD-FOR-TVCC-LOC
+  exit
+
+vlan 1506
+  name VL-MOD-FOR-SPDEV-LOC
+  exit
+
+vlan 1507
+  name VL-MOD-FOR-SPAR1-LOC
+  exit
+
+vlan 1508
+  name VL-MOD-FOR-SPAR2-LOC
+  exit
+
+vlan 1509
+  name VL-MOD-FOR-SPAR3-LOC
+  exit
+
+vlan 1510
+  name VL-MOD-FOR-EXT0-LOC
+  exit
+
+vlan 1511
+  name VL-MOD-FOR-EXT1-LOC
+  exit
+
+vlan 1512
+  name VL-MOD-FOR-EXT2-LOC
+  exit
+
+vlan 1513
+  name VL-MOD-FOR-EXT3-LOC
+  exit
+
+vlan 1514
+  name VL-MOD-FOR-EXT4-LOC
+  exit
+
+vlan 1515
+  name VL-MOD-FOR-EXT5-LOC
+  exit
+
+vlan 1516
+  name VL-MOD-FOR-EXT6-LOC
+  exit
+
+vlan 1517
+  name VL-MOD-FOR-EXT7-LOC
+  exit
+
+vlan 1518
+  name VL-MOD-FOR-EXT8-LOC
+  exit
+
+vlan 1519
+  name VL-MOD-FOR-EXT9-LOC
+  exit
+
+vlan 1520
+  name VL-MOD-FIN-L1-LOC
+  exit
+
+vlan 1521
+  name VL-MOD-FIN-MAN-LOC
+  exit
+
+vlan 1522
+  name VL-MOD-FIN-DISP-LOC
+  exit
+
+vlan 1523
+  name VL-MOD-FIN-AZ-LOC
+  exit
+
+vlan 1524
+  name VL-MOD-FIN-IBA-LOC
+  exit
+
+vlan 1525
+  name VL-MOD-FIN-TVCC-LOC
+  exit
+
+vlan 1526
+  name VL-MOD-FIN-SPDEV-LOC
+  exit
+
+vlan 1527
+  name VL-MOD-FIN-SPAR1-LOC
+  exit
+
+vlan 1528
+  name VL-MOD-FIN-SPAR2-LOC
+  exit
+
+vlan 1529
+  name VL-MOD-FIN-SPAR3-LOC
+  exit
+
+vlan 1530
+  name VL-MOD-FIN-EXT0-LOC
+  exit
+
+vlan 1531
+  name VL-MOD-FIN-EXT1-LOC
+  exit
+
+vlan 1532
+  name VL-MOD-FIN-EXT2-LOC
+  exit
+
+vlan 1533
+  name VL-MOD-FIN-EXT3-LOC
+  exit
+
+vlan 1534
+  name VL-MOD-FIN-EXT4-LOC
+  exit
+
+vlan 1535
+  name VL-MOD-FIN-EXT5-LOC
+  exit
+
+vlan 1536
+  name VL-MOD-FIN-EXT6-LOC
+  exit
+
+vlan 1537
+  name VL-MOD-FIN-EXT7-LOC
+  exit
+
+vlan 1538
+  name VL-MOD-FIN-EXT8-LOC
+  exit
+
+vlan 1539
+  name VL-MOD-FIN-EXT9-LOC
+  exit
+
+vlan 1540
+  name VL-MOD-OCTG-L1-LOC
+  exit
+
+vlan 1541
+  name VL-MOD-OCTG-MAN-LOC
+  exit
+
+vlan 1542
+  name VL-MOD-OCTG-DISP-LOC
+  exit
+
+vlan 1543
+  name VL-MOD-OCTG-AZ-LOC
+  exit
+
+vlan 1544
+  name VL-MOD-OCTG-IBA-LOC
+  exit
+
+vlan 1545
+  name VL-MOD-OCTG-TVCC-LOC
+  exit
+
+vlan 1546
+  name VL-MOD-OCTG-SPDV-LOC
+  exit
+
+vlan 1547
+  name VL-MOD-OCTG-SPR1-LOC
+  exit
+
+vlan 1548
+  name VL-MOD-OCTG-SPR2-LOC
+  exit
+
+vlan 1549
+  name VL-MOD-OCTG-SPR3-LOC
+  exit
+
+vlan 1550
+  name VL-MOD-OCTG-EXT0-LOC
+  exit
+
+vlan 1551
+  name VL-MOD-OCTG-EXT1-LOC
+  exit
+
+vlan 1552
+  name VL-MOD-OCTG-EXT2-LOC
+  exit
+
+vlan 1553
+  name VL-MOD-OCTG-EXT3-LOC
+  exit
+
+vlan 1554
+  name VL-MOD-OCTG-EXT4-LOC
+  exit
+
+vlan 1555
+  name VL-MOD-OCTG-EXT5-LOC
+  exit
+
+vlan 1556
+  name VL-MOD-OCTG-EXT6-LOC
+  exit
+
+vlan 1557
+  name VL-MOD-OCTG-EXT7-LOC
+  exit
+
+vlan 1558
+  name VL-MOD-OCTG-EXT8-LOC
+  exit
+
+vlan 1559
+  name VL-MOD-OCTG-EXT9-LOC
+  exit
+
+vlan 1560
+  name VL-MOD-LABO-L1-LOC
+  exit
+
+vlan 1561
+  name VL-MOD-LABO-MAN-LOC
+  exit
+
+vlan 1562
+  name VL-MOD-LABO-DISP-LOC
+  exit
+
+vlan 1563
+  name VL-MOD-LABO-AZ-LOC
+  exit
+
+vlan 1564
+  name VL-MOD-LABO-IBA-LOC
+  exit
+
+vlan 1565
+  name VL-MOD-LABO-TVCC-LOC
+  exit
+
+vlan 1566
+  name VL-MOD-LABO-SPDV-LOC
+  exit
+
+vlan 1567
+  name VL-MOD-LABO-SPR1-LOC
+  exit
+
+vlan 1568
+  name VL-MOD-LABO-SPR2-LOC
+  exit
+
+vlan 1569
+  name VL-MOD-LABO-SPR3-LOC
+  exit
+
+vlan 1570
+  name VL-MOD-LABO-EXT0-LOC
+  exit
+
+vlan 1571
+  name VL-MOD-LABO-EXT1-LOC
+  exit
+
+vlan 1572
+  name VL-MOD-LABO-EXT2-LOC
+  exit
+
+vlan 1573
+  name VL-MOD-LABO-EXT3-LOC
+  exit
+
+vlan 1574
+  name VL-MOD-LABO-EXT4-LOC
+  exit
+
+vlan 1575
+  name VL-MOD-LABO-EXT5-LOC
+  exit
+
+vlan 1576
+  name VL-MOD-LABO-EXT6-LOC
+  exit
+
+vlan 1577
+  name VL-MOD-LABO-EXT7-LOC
+  exit
+
+vlan 1578
+  name VL-MOD-LABO-EXT8-LOC
+  exit
+
+vlan 1579
+  name VL-MOD-LABO-EXT9-LOC
+  exit
+
+vlan 1580
+  name VL-MOD-ALL-L1-LOC
+  exit
+
+vlan 1581
+  name VL-MOD-ALL-MAN-LOC
+  exit
+
+vlan 1582
+  name VL-MOD-ALL-DISP-LOC
+  exit
+
+vlan 1583
+  name VL-MOD-ALL-AZ-LOC
+  exit
+
+vlan 1584
+  name VL-MOD-ALL-IBA-LOC
+  exit
+
+vlan 1585
+  name VL-MOD-ALL-TVCC-LOC
+  exit
+
+vlan 1586
+  name VL-MOD-ALL-SPDEV-LOC
+  exit
+
+vlan 1587
+  name VL-MOD-ALL-SPAR1-LOC
+  exit
+
+vlan 1588
+  name VL-MOD-ALL-SPAR2-LOC
+  exit
+
+vlan 1589
+  name VL-MOD-ALL-SPAR3-LOC
+  exit
+
+vlan 1590
+  name VL-MOD-ALL-EXT0-LOC
+  exit
+
+vlan 1591
+  name VL-MOD-ALL-EXT1-LOC
+  exit
+
+vlan 1592
+  name VL-MOD-ALL-EXT2-LOC
+  exit
+
+vlan 1593
+  name VL-MOD-ALL-EXT3-LOC
+  exit
+
+vlan 1594
+  name VL-MOD-ALL-EXT4-LOC
+  exit
+
+vlan 1595
+  name VL-MOD-ALL-EXT5-LOC
+  exit
+
+vlan 1596
+  name VL-MOD-ALL-EXT6-LOC
+  exit
+
+vlan 1597
+  name VL-MOD-ALL-EXT7-LOC
+  exit
+
+vlan 1598
+  name VL-MOD-ALL-EXT8-LOC
+  exit
+
+vlan 1599
+  name VL-MOD-ALL-EXT9-LOC
+  exit
+
+vlan 2000
+  name VL-SOD-FOR-L1-LOC
+  exit
+
+vlan 2001
+  name VL-SOD-FOR-MAN-LOC
+  exit
+
+vlan 2002
+  name VL-SOD-FOR-DISP-LOC
+  exit
+
+vlan 2003
+  name VL-SOD-FOR-AZ-LOC
+  exit
+
+vlan 2004
+  name VL-SOD-FOR-IBA-LOC
+  exit
+
+vlan 2005
+  name VL-SOD-FOR-TVCC-LOC
+  exit
+
+vlan 2006
+  name VL-SOD-FOR-SPDEV-LOC
+  exit
+
+vlan 2007
+  name VL-SOD-FOR-SPAR1-LOC
+  exit
+
+vlan 2008
+  name VL-SOD-FOR-SPAR2-LOC
+  exit
+
+vlan 2009
+  name VL-SOD-FOR-SPAR3-LOC
+  exit
+
+vlan 2010
+  name VL-SOD-FOR-EXT0-LOC
+  exit
+
+vlan 2011
+  name VL-SOD-FOR-EXT1-LOC
+  exit
+
+vlan 2012
+  name VL-SOD-FOR-EXT2-LOC
+  exit
+
+vlan 2013
+  name VL-SOD-FOR-EXT3-LOC
+  exit
+
+vlan 2014
+  name VL-SOD-FOR-EXT4-LOC
+  exit
+
+vlan 2015
+  name VL-SOD-FOR-EXT5-LOC
+  exit
+
+vlan 2016
+  name VL-SOD-FOR-EXT6-LOC
+  exit
+
+vlan 2017
+  name VL-SOD-FOR-EXT7-LOC
+  exit
+
+vlan 2018
+  name VL-SOD-FOR-EXT8-LOC
+  exit
+
+vlan 2019
+  name VL-SOD-FOR-EXT9-LOC
+  exit
+
+vlan 2020
+  name VL-SOD-FIN-L1-LOC
+  exit
+
+vlan 2021
+  name VL-SOD-FIN-MAN-LOC
+  exit
+
+vlan 2022
+  name VL-SOD-FIN-DISP-LOC
+  exit
+
+vlan 2023
+  name VL-SOD-FIN-AZ-LOC
+  exit
+
+vlan 2024
+  name VL-SOD-FIN-IBA-LOC
+  exit
+
+vlan 2025
+  name VL-SOD-FIN-TVCC-LOC
+  exit
+
+vlan 2026
+  name VL-SOD-FIN-SPDEV-LOC
+  exit
+
+vlan 2027
+  name VL-SOD-FIN-SPAR1-LOC
+  exit
+
+vlan 2028
+  name VL-SOD-FIN-SPAR2-LOC
+  exit
+
+vlan 2029
+  name VL-SOD-FIN-SPAR3-LOC
+  exit
+
+vlan 2030
+  name VL-SOD-FIN-EXT0-LOC
+  exit
+
+vlan 2031
+  name VL-SOD-FIN-EXT1-LOC
+  exit
+
+vlan 2032
+  name VL-SOD-FIN-EXT2-LOC
+  exit
+
+vlan 2033
+  name VL-SOD-FIN-EXT3-LOC
+  exit
+
+vlan 2034
+  name VL-SOD-FIN-EXT4-LOC
+  exit
+
+vlan 2035
+  name VL-SOD-FIN-EXT5-LOC
+  exit
+
+vlan 2036
+  name VL-SOD-FIN-EXT6-LOC
+  exit
+
+vlan 2037
+  name VL-SOD-FIN-EXT7-LOC
+  exit
+
+vlan 2038
+  name VL-SOD-FIN-EXT8-LOC
+  exit
+
+vlan 2039
+  name VL-SOD-FIN-EXT9-LOC
+  exit
+
+vlan 2040
+  name VL-SOD-OCTG-L1-LOC
+  exit
+
+vlan 2041
+  name VL-SOD-OCTG-MAN-LOC
+  exit
+
+vlan 2042
+  name VL-SOD-OCTG-DISP-LOC
+  exit
+
+vlan 2043
+  name VL-SOD-OCTG-AZ-LOC
+  exit
+
+vlan 2044
+  name VL-SOD-OCTG-IBA-LOC
+  exit
+
+vlan 2045
+  name VL-SOD-OCTG-TVCC-LOC
+  exit
+
+vlan 2046
+  name VL-SOD-OCTG-SPDV-LOC
+  exit
+
+vlan 2047
+  name VL-SOD-OCTG-SPR1-LOC
+  exit
+
+vlan 2048
+  name VL-SOD-OCTG-SPR2-LOC
+  exit
+
+vlan 2049
+  name VL-SOD-OCTG-SPR3-LOC
+  exit
+
+vlan 2050
+  name VL-SOD-OCTG-EXT0-LOC
+  exit
+
+vlan 2051
+  name VL-SOD-OCTG-EXT1-LOC
+  exit
+
+vlan 2052
+  name VL-SOD-OCTG-EXT2-LOC
+  exit
+
+vlan 2053
+  name VL-SOD-OCTG-EXT3-LOC
+  exit
+
+vlan 2054
+  name VL-SOD-OCTG-EXT4-LOC
+  exit
+
+vlan 2055
+  name VL-SOD-OCTG-EXT5-LOC
+  exit
+
+vlan 2056
+  name VL-SOD-OCTG-EXT6-LOC
+  exit
+
+vlan 2057
+  name VL-SOD-OCTG-EXT7-LOC
+  exit
+
+vlan 2058
+  name VL-SOD-OCTG-EXT8-LOC
+  exit
+
+vlan 2059
+  name VL-SOD-OCTG-EXT9-LOC
+  exit
+
+vlan 2060
+  name VL-SOD-LABO-L1-LOC
+  exit
+
+vlan 2061
+  name VL-SOD-LABO-MAN-LOC
+  exit
+
+vlan 2062
+  name VL-SOD-LABO-DISP-LOC
+  exit
+
+vlan 2063
+  name VL-SOD-LABO-AZ-LOC
+  exit
+
+vlan 2064
+  name VL-SOD-LABO-IBA-LOC
+  exit
+
+vlan 2065
+  name VL-SOD-LABO-TVCC-LOC
+  exit
+
+vlan 2066
+  name VL-SOD-LABO-SPDV-LOC
+  exit
+
+vlan 2067
+  name VL-SOD-LABO-SPR1-LOC
+  exit
+
+vlan 2068
+  name VL-SOD-LABO-SPR2-LOC
+  exit
+
+vlan 2069
+  name VL-SOD-LABO-SPR3-LOC
+  exit
+
+vlan 2070
+  name VL-SOD-LABO-EXT0-LOC
+  exit
+
+vlan 2071
+  name VL-SOD-LABO-EXT1-LOC
+  exit
+
+vlan 2072
+  name VL-SOD-LABO-EXT2-LOC
+  exit
+
+vlan 2073
+  name VL-SOD-LABO-EXT3-LOC
+  exit
+
+vlan 2074
+  name VL-SOD-LABO-EXT4-LOC
+  exit
+
+vlan 2075
+  name VL-SOD-LABO-EXT5-LOC
+  exit
+
+vlan 2076
+  name VL-SOD-LABO-EXT6-LOC
+  exit
+
+vlan 2077
+  name VL-SOD-LABO-EXT7-LOC
+  exit
+
+vlan 2078
+  name VL-SOD-LABO-EXT8-LOC
+  exit
+
+vlan 2079
+  name VL-SOD-LABO-EXT9-LOC
+  exit
+
+vlan 2080
+  name VL-SOD-ALL-L1-LOC
+  exit
+
+vlan 2081
+  name VL-SOD-ALL-MAN-LOC
+  exit
+
+vlan 2082
+  name VL-SOD-ALL-DISP-LOC
+  exit
+
+vlan 2083
+  name VL-SOD-ALL-AZ-LOC
+  exit
+
+vlan 2084
+  name VL-SOD-ALL-IBA-LOC
+  exit
+
+vlan 2085
+  name VL-SOD-ALL-TVCC-LOC
+  exit
+
+vlan 2086
+  name VL-SOD-ALL-SPDEV-LOC
+  exit
+
+vlan 2087
+  name VL-SOD-ALL-SPAR1-LOC
+  exit
+
+vlan 2088
+  name VL-SOD-ALL-SPAR2-LOC
+  exit
+
+vlan 2089
+  name VL-SOD-ALL-SPAR3-LOC
+  exit
+
+vlan 2090
+  name VL-SOD-ALL-EXT0-LOC
+  exit
+
+vlan 2091
+  name VL-SOD-ALL-EXT1-LOC
+  exit
+
+vlan 2092
+  name VL-SOD-ALL-EXT2-LOC
+  exit
+
+vlan 2093
+  name VL-SOD-ALL-EXT3-LOC
+  exit
+
+vlan 2094
+  name VL-SOD-ALL-EXT4-LOC
+  exit
+
+vlan 2095
+  name VL-SOD-ALL-EXT5-LOC
+  exit
+
+vlan 2096
+  name VL-SOD-ALL-EXT6-LOC
+  exit
+
+vlan 2097
+  name VL-SOD-ALL-EXT7-LOC
+  exit
+
+vlan 2098
+  name VL-SOD-ALL-EXT8-LOC
+  exit
+
+vlan 2099
+  name VL-SOD-ALL-EXT9-LOC
+  exit

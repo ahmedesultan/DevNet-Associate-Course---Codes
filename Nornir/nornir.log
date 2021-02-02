@@ -1,0 +1,5 @@
+2021-01-28 17:52:44,706 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh ip int brief'} on 4 hosts
+2021-01-28 17:53:51,678 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 4 hosts
+2021-01-28 17:55:36,007 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
+2021-01-28 17:56:30,165 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
+2021-01-28 17:57:17,185 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
