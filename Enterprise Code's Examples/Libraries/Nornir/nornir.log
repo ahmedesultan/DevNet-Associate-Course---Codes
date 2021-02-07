@@ -3,3 +3,4 @@
 2021-01-28 17:55:36,007 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
 2021-01-28 17:56:30,165 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
 2021-01-28 17:57:17,185 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
+2021-02-07 20:09:43,958 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'commands'} on 4 hosts
