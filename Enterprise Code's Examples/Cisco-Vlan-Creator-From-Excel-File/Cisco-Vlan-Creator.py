@@ -10,13 +10,13 @@ from netmiko.ssh_exception import NetMikoTimeoutException  # Device Unreachable
 from netmiko.ssh_exception import SSHException  # SSH is not enabled
 from netmiko.ssh_exception import AuthenticationException  # SSH Authentication error
 import pyfiglet
-
-# Prints Banner with tool name
+#
+# # Prints Banner with tool name
 banner = pyfiglet.figlet_format("VLANs Creator", font="doom")
 print(banner)
-
+#
 # Read Vlan Excel File
-# source_file = "vlans-info.csv"
+source_file = "vlans-info.csv"
 
 # Read VLAN Template File
 vlans_template_file = "switch-vlans-template.j2"
@@ -26,6 +26,7 @@ host_ip = input("Enter your device IP: ")
 username = input("Enter device SSH Username: ")
 user_password = input("Enter device SSH Password: ")
 enable_secret = input("Enter device Enable Password: ")
+#
 source_file = input("Enter your Excel file name with .csv extension: ")
 
 device = {

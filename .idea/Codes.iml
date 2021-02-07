@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/DNA-Center-with-API-21 Jan 2021" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Nornir" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Enterprise Code's Examples/Nornir" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Firepower Threat Defense (FTD) Device APIs" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
