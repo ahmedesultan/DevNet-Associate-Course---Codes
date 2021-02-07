@@ -8,7 +8,6 @@ __email__ = "asultan.sdn@gmail.com"
 import telnetlib
 
 # Declare Variables to store credentials
-# This is a new comment
 host_ip = input("Enter your device IP: ")
 username = input("Enter device Telnet Username: ")
 user_password = input("Enter device Telnet Password: ")
@@ -26,10 +25,10 @@ print("Success Connection!")
 
 # Print Output
 while True:
-    command = input("Enter 'show' for showing configuration or 'health' for checking device health ")
+    command = input("Enter 'show' for showing configuration or 'health' for checking device health: ")
     if "show" in command.lower():
         commands = ["show runn | i hostname",
-                    "show ip int b",
+                    "show ip int br",
                     "show ip route",
                     "show clock"]
     elif "health" in command.lower():
